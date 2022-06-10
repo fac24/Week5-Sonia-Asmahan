@@ -33,7 +33,7 @@ export default function Flags() {
         setFlag(countries[randomNum].flag)
         setCountry(countries[randomNum].name.common) 
         setValid(false);
-    }
+    } 
 
       if(!flag) {
             return <>
